@@ -46,7 +46,7 @@ const handleChange = (e) => {
     setNumber('');
   }
 
-  
+  console.log(contacts);
     return (<>
   < form className={css.form} onSubmit={handleSubmit} >
 <label className={css.label} htmlFor="name">Name</label>
